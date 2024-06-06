@@ -29,7 +29,7 @@ O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](https://
 
 ## Autor 🧑‍💻
 
-Este projeto foi desenvolvido por [Seu Nome](https://github.com/ITzspi).
+Este projeto foi desenvolvido por [Felipe Avelino Pedaes](https://github.com/ITzspi).
 
 ## Licença 📝
 
