@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #2ecc71, #3498db, #9b59b6);
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 181, 204, 0.8); /* Semi-transparente */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.top-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.top-bar button {
+    padding: 10px 20px;
+    background-color: #97ce4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.top-bar button:hover {
+    background-color: #85b745;
+}
+
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Espaço entre a barra e os personagens */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.character-card {
+    text-align: center;
+}
+
+.character-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.vivo {
+    background-color: rgba(186, 255, 201, 0.8); /* Fundo semi-transparente */
+}
+
+.morto {
+    background-color: rgba(255, 105, 97, 0.8); /* Fundo semi-transparente */
+}
+
+.desconhecido {
+    background-color: rgba(253, 253, 150, 0.8); /* Fundo semi-transparente */
+}
+
+.details {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.loading {
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.load-more {
+    padding: 10px 20px;
+    background-color: #97ce4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+    background-color: #85b745;
+}
