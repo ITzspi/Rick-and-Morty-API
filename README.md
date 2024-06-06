@@ -31,7 +31,4 @@ O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](https://
 
 Este projeto foi desenvolvido por [Felipe Avelino Pedaes](https://github.com/ITzspi).
 
-## Licença 📝
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
